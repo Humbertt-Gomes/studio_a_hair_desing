@@ -2,6 +2,13 @@
 
 Site institucional desenvolvido do zero para um salão de beleza real.
 
+>  Projeto em desenvolvimento — funcionalidades de backend serão adicionadas futuramente.
+
+##  Demonstração online
+O site está disponível publicamente no GitHub Pages:
+
+ **https://humbertt-gomes.github.io/studio_a_hair_desing/**
+
 ##  Tecnologias utilizadas
 - HTML5
 - CSS3
