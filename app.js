@@ -70,3 +70,15 @@ document.addEventListener("keydown", (e) =>{
     if (e.key === "Escape") closeBtn.click();
 });
 
+const btnMobile = document.getElementById('btn-mobile');
+const navMenu = document.querySelector('.nav-menu');
+
+btnMobile.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+    });
+});
